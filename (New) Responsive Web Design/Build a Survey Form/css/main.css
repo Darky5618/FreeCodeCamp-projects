@@ -1,0 +1,83 @@
+div {
+  background-color: #232946;
+  border: 2px inset #121629;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: clamp(200px, 75vw, 500px);
+  opacity: 2;
+}
+
+body {
+  background-color: rgba(35, 41, 70, 0.9);
+  opacity: 1;
+  background-size: cover;
+  box-shadow: 0 0 0 2000px rgba(35, 41, 70, 0.9);
+}
+
+html {
+  background-image: url(https://cdn.pixabay.com/photo/2016/04/11/21/17/blue-1323101_960_720.png);
+  background-size: 100%;
+  background-repeat: round;
+}
+
+h1,
+h2,
+p {
+  color: #fffffe;
+  text-align: center;
+}
+
+p,
+label,
+legend {
+  color: #b8c1ec;
+}
+
+label,
+legend {
+  display: block;
+  margin: 0.5rem;
+  font-size: 20px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin: 0.5em 0 0 0;
+  background-color: #1a1e34;
+  color: #fffffe;
+  border: 2px inset #121629;
+  display: block;
+}
+
+input[type="radio"] {
+  display: inline;
+  width: auto;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}
+
+fieldset {
+  display: inline;
+  border: 0px;
+  padding-bottom: 0;
+}
+
+hr {
+  width: auto;
+  border: 2px inset #121629;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  min-width: 150px;
+  max-width: 450px;
+}
