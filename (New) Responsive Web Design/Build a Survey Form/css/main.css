@@ -15,9 +15,12 @@ body {
 }
 
 html {
-  background-image: url(https://cdn.pixabay.com/photo/2016/04/11/21/17/blue-1323101_960_720.png);
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/05/21/43/planet-2120004_960_720.jpg);
   background-size: 100%;
-  background-repeat: round;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1,
@@ -43,8 +46,8 @@ legend {
 input,
 textarea,
 select {
-  width: 100%;
-  margin: 0.5em 0 0 0;
+  width: 98%;
+  margin: 0 0.5em 0 0;
   background-color: #1a1e34;
   color: #fffffe;
   border: 2px inset #121629;
