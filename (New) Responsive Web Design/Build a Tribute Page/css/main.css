@@ -34,6 +34,11 @@ p {
   font-family: tahoma, verdana, sans-serif;
   margin: auto 10%;
   line-height: 24px;
+  color:	#444444;
+}
+
+strong {
+  color: #111111;
 }
 
 body {
