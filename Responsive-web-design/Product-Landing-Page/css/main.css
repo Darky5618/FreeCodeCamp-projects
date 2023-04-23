@@ -52,10 +52,22 @@ a {
 /*Header*/
 
 #header {
-    height: 20px;
+    height: 12rem;
     max-height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header > img {
+    height: 100%;
+    object-fit: cover;
 }
 
 #nav-bar {
-    height: 20%;
+    width: 30%;
+}
+
+#nav-bar > ul {
+    list-style: none;
+    display: flex;
 }
