@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    max-width: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#header {
+    border: 2px solid lightgreen;
+}
+
+#nav-bar {
+    border: 2px solid lightgreen;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*Header*/
+
+#header {
+    height: 20px;
+    max-height: 20%;
+}
+
+#nav-bar {
+    height: 20%;
+}
