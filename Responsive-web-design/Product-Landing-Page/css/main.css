@@ -49,20 +49,28 @@ p {
     border: 2px solid lightgreen;
 }
 
+section {
+    border: 2px solid lightgreen;
+}
+
 a {
     cursor: pointer;
+}
+
+input {
+    padding: 0.25rem;
 }
 
 /* -------------------- Header -------------------- */
 
 #header {
     height: 12rem;
-    max-height: 20%;
+    height: clamp(6rem, 12%, min(14rem, 20vh));
     display: flex;
     justify-content: space-between;
 }
 
-#header > img {
+#header>img {
     height: 100%;
     object-fit: cover;
 }
@@ -71,11 +79,39 @@ a {
     width: clamp(14rem, 30%, 24rem);
 }
 
-#nav-bar > ul {
+#nav-bar>ul {
     height: 100%;
     list-style: none;
     display: flex;
-    gap: clamp(0.5rem, 2%, 3rem);
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#nav-bar>ul>li {
+    height: 50%;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar>ul>li+li {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-image: linear-gradient(transparent 10%, rgba(0, 0, 0, 0.9) 50%, transparent 90%) 1;
+}
+
+/* ------------------------------------------------ */
+
+/* ------------------- Sections ------------------- */
+
+section {
+    width: min(95vw, 70rem);
+    margin: 5% auto 0;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
