@@ -16,7 +16,7 @@ body {
 }
 
 html {
-    font-size: clamp(16px, -12px + 2.8vw, 26px);
+    font-size: clamp(16px, 0.5vw + 12px, 24px);
 }
 
 body {
@@ -68,14 +68,14 @@ a {
 }
 
 #nav-bar {
-    width: 30%;
+    width: clamp(14rem, 30%, 24rem);
 }
 
 #nav-bar > ul {
     height: 100%;
     list-style: none;
     display: flex;
-    gap: clamp(1rem, 2.5rem, 5rem);
+    gap: clamp(0.5rem, 2%, 3rem);
     justify-content: space-around;
     align-items: center;
 }
