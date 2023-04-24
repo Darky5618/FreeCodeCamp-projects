@@ -15,6 +15,10 @@ body {
     max-width: 100%;
 }
 
+html {
+    font-size: clamp(16px, -12px + 2.8vw, 26px);
+}
+
 body {
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +53,7 @@ a {
     cursor: pointer;
 }
 
-/*Header*/
+/* -------------------- Header -------------------- */
 
 #header {
     height: 12rem;
@@ -68,6 +72,12 @@ a {
 }
 
 #nav-bar > ul {
+    height: 100%;
     list-style: none;
     display: flex;
+    gap: clamp(1rem, 2.5rem, 5rem);
+    justify-content: space-around;
+    align-items: center;
 }
+
+/* ------------------------------------------------ */
