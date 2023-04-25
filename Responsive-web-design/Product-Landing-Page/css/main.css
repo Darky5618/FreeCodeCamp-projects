@@ -72,7 +72,7 @@ input {
     justify-content: space-between;
 }
 
-#header>img {
+#header-img {
     height: 100%;
     object-fit: cover;
 }
@@ -89,7 +89,7 @@ input {
     font-size: 1.3rem;
 }
 
-#nav-bar>ul>li {
+.nav-link {
     height: 50%;
     text-align: center;
     flex-grow: 1;
@@ -98,7 +98,7 @@ input {
     align-items: center;
 }
 
-#nav-bar>ul>li+li {
+.nav-link+li {
     border-left-width: 1px;
     border-left-style: solid;
     border-image: linear-gradient(transparent 10%, rgba(0, 0, 0, 0.9) 50%, transparent 90%) 1;
