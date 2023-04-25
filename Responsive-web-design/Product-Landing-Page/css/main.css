@@ -20,6 +20,7 @@ html {
 }
 
 body {
+    background-color: #fffffe;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,8 +31,7 @@ body {
 img,
 picture,
 video,
-canvas,
-svg {
+canvas {
     display: block;
     max-width: 100%;
 }
@@ -39,18 +39,6 @@ svg {
 p {
     text-align: justify;
     text-justify: inter-word;
-}
-
-#header {
-    border: 2px solid lightgreen;
-}
-
-#nav-bar {
-    border: 2px solid lightgreen;
-}
-
-section {
-    border: 2px solid lightgreen;
 }
 
 a {
@@ -63,15 +51,29 @@ input {
     padding: 0.25rem;
 }
 
+#wave {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+path {
+    stroke: #0e172c;
+    stroke-width: 1px;
+}
+
 /* -------------------- Header -------------------- */
 
 #header {
     height: 12rem;
     height: clamp(6rem, 12%, min(14rem, 20vh));
+    border-bottom: 2px solid #0e172c;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    background-color: #fec7d7;
 }
 
 #header-img {
@@ -123,6 +125,20 @@ section {
     justify-content: space-around;
     row-gap: 1rem;
     align-items: center;
+    border: 2px solid #0e172c;
+    background-color: #fec7d7;
+    border-radius: 0.5rem;
+}
+
+#email {
+    border: 2px solid #0e172c;
+    border-radius: 0.5rem;
+}
+
+#submit {
+    background-color: #0e172c;
+    color: #fffffe;
+    border-radius: 0.5rem;
 }
 
 /* ------------------------------------------------ */
