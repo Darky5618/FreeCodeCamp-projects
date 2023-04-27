@@ -82,7 +82,7 @@ path {
 }
 
 #nav-bar {
-    width: clamp(14rem, 30%, 24rem);
+    width: clamp(18rem, 32.5%, 26rem);
 }
 
 #nav-bar>ul {
@@ -152,9 +152,21 @@ section {
 }
 
 #contact > div {
-    width: min(95vw, 70rem);
+    width: 95vw;
     margin: 0 auto 0;
     padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#contact > div > nav {
+    width: clamp(12rem, 25vw, 15rem);
+}
+
+#contact > div > nav > ul {
+    display: flex;
 }
 
 /* ------------------------------------------------ */
