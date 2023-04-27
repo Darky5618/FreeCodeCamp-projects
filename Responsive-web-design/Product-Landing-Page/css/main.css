@@ -141,6 +141,64 @@ section {
     border-radius: 0.5rem;
 }
 
+#features {
+    align-items: flex-start;
+}
+
+#features>div {
+    margin-left: max(25vw, 12rem)
+}
+
+@media screen and (max-width: 720px) {
+    #features>div {
+        margin-left: 5vw;
+    }
+}
+
+#pricing {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media (max-width: 620px) {
+    #pricing {
+        gap: 0.5rem;
+    }
+}
+
+#pricing>div {
+    border: 2px solid #0e172c;
+    background-color: #d9d4e7;
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+#pricing>div>button {
+    width: 30%;
+    background-color: #0e172c;
+    color: #fffffe;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#pricing>div>ul {
+    list-style: none;
+}
+
+#pricing>div>* {
+    text-align: center;
+}
+
+#pricing>div>div {
+    background-color: #a786df;
+    border-bottom: 2px solid #0e172c;
+    width: 100%;
+}
+
 /* ------------------------------------------------ */
 
 /* -------------------- Footer -------------------- */
@@ -151,7 +209,7 @@ section {
     margin-top: 5%;
 }
 
-#contact > div {
+#contact>div {
     width: 95vw;
     margin: 0 auto 0;
     padding: 1%;
@@ -161,11 +219,11 @@ section {
     flex-direction: column;
 }
 
-#contact > div > nav {
+#contact>div>nav {
     width: clamp(12rem, 25vw, 15rem);
 }
 
-#contact > div > nav > ul {
+#contact>div>nav>ul {
     display: flex;
 }
 
