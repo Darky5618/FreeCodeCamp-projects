@@ -73,7 +73,7 @@ path {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    background-color: #fec7d7;
+    background-color: #d9d4e7;
 }
 
 #header-img {
@@ -139,6 +139,22 @@ section {
     background-color: #0e172c;
     color: #fffffe;
     border-radius: 0.5rem;
+}
+
+/* ------------------------------------------------ */
+
+/* -------------------- Footer -------------------- */
+
+#contact {
+    background-color: #d9d4e7;
+    border-top: 2px solid #0e172c;
+    margin-top: 5%;
+}
+
+#contact > div {
+    width: min(95vw, 70rem);
+    margin: 0 auto 0;
+    padding: 1%;
 }
 
 /* ------------------------------------------------ */
